@@ -18,8 +18,7 @@
 
 <header>
 
-    <div class="topo">
-
+    <div id="topo">
         <div>
             <div class="logo">
                 VOZ <span>DA INFÂNCIA</span>

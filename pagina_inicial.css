@@ -21,7 +21,7 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #f4f0eb;
+  background: var(--creme);
   color: var(--preto);
   line-height: 1.7;
 }
@@ -224,7 +224,7 @@ nav a:hover {
       );
 }
 #brasil{
- background-image: url('../projeto_de_pi_atualizado/imagens/dsc09321_1.webp');
+ background-image: url('../projeto_de_pi_att/imagens/dsc09321_1.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -232,7 +232,7 @@ nav a:hover {
 }
 
 #educacao{
- background-image: url('../projeto_de_pi_atualizado/imagens/WhatsApp\ Image\ 2019-06-10\ at\ 13.30.21\ _2_.jpeg');
+ background-image: url('../projeto_de_pi_att/imagens/WhatsApp\ Image\ 2019-06-10\ at\ 13.30.21\ _2_.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -240,7 +240,7 @@ nav a:hover {
 }
 
 #sociedade{
- background-image: url('../projeto_de_pi_atualizado/imagens/DB2021DFC11B03358E6A85E41BC69BD664CA_menino.webp');
+ background-image: url('../projeto_de_pi_att/imagens/DB2021DFC11B03358E6A85E41BC69BD664CA_menino.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -248,7 +248,7 @@ nav a:hover {
 }
 
 #direitos{
- background-image: url('../projeto_de_pi_atualizado/imagens/image1024x768.jpg');
+ background-image: url('../projeto_de_pi_att/imagens/image1024x768.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
