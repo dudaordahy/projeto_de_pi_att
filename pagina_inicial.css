@@ -72,6 +72,20 @@ header {
   color: var(--vermelho-escuro);
 }
 
+#cadastro{
+  color: var(--creme);
+  border: 1.5px solid var(--creme);
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#cadastro:hover{
+  background: var(--creme);
+  color: var(--vermelho-escuro);
+}
+
 .logo {
   font-family: Georgia, serif;
   font-size: 32px;

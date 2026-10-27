@@ -29,10 +29,18 @@
             </div>
         </div>
 
+
         <div class="usuario">
-            <span>@<?php echo htmlspecialchars($_SESSION['nome_user'] ?? ''); ?></span>
-            <a id="sair" href="./actions/logoff.php">Sair</a>
+            <?php
+                if (!isset($_SESSION['nome_user'])) {
+                    echo '<a id="cadastro" href="./cadastro.php">Cadastro</a>';
+                } else {
+                    echo '<span>@' . htmlspecialchars($_SESSION['nome_user'] ?? '') . '</span>';
+                    echo '<a id="sair" href="./actions/logoff.php">Sair</a>';
+                }
+            ?>
         </div>
+
 
     </div>
 
